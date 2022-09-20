@@ -15,11 +15,12 @@ public class SetDemo {
 
 	public static void main(String[] args) {
 		EnhancedHashSet2<Integer> mySet = new EnhancedHashSet2<>();
-		mySet.add(7);
-		mySet.add(6);
+		mySet.add(3);
 		mySet.add(1);
 		mySet.add(2);
-		mySet.add(3);
+		mySet.add(0);
+		mySet.add(2);
+		
 		System.out.println(mySet);
 		System.out.println(mySet.size());
 		System.out.println(mySet.getCount());
