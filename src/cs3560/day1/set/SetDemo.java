@@ -11,13 +11,6 @@ import java.util.Set;
 // Map
 // HashMap, Hashtable
 
-// 
-// synchronized Balance: 200
-//          deposit: 100               withdraw: 100
-//                   b = 200                  b = 300
-//                   b += 100                 b -= 100
-//                   b = 300                  b = 100
-
 public class SetDemo {
 
 	public static void main(String[] args) {
